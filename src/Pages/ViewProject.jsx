@@ -12,7 +12,7 @@ const ViewProject = () => {
 
     return (
         <PageTemplate>
-            <div className="flex flex-col items-start px-2">
+            <div className="flex flex-col items-start px-2 w-full">
                 {/* Back Button */}
                 <div onClick={() => { navigation("/") }} className="flex flex-row justify-start w-full mb-4">
                     <div className="flex flex-row items-center w-fit p-2 hover:bg-[#1F1F1F] cursor-pointer text-[#FAFCFF] rounded-lg">

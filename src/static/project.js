@@ -14,6 +14,13 @@ const Projects = [
         "Technologies": ["HTML", "TailwindCSS", "JavaScript", "Python", "SQL"]
     },
     {
+        "Title": "Recipe App",
+        "Description": "An app for keeping track of recipes instructions and ingredients. Also includes a calculator to estimate the amount of protein there is in an amount of cooked meat.",
+        "Thumbnail": "./images/remoteapp/recipeappthumbnail.png",
+        "Images": ["./images/remoteapp/recipelist.png", "./images/remoteapp/recipesteps.png", "./images/remoteapp/recipeingredients.png", "./images/remoteapp/addrecipe.png", "./images/remoteapp/proteincalculator.png"],
+        "Technologies": ["Flutter", "Material 3"]
+    },
+    {
         "Title": "Pong Game",
         "Description": "A two player game where each player controls a paddle to prevent the ball from hitting the edge of their side of the screen. First person to reach a score of 5 wins.",
         "Thumbnail": "./images/pong/game.png",
@@ -21,10 +28,10 @@ const Projects = [
         "Technologies": ["C#", "MonoGame"]
     },
     {
-        "Title": "Sustainability App(In Progress)",
-        "Description": "An app for users...",
-        "Thumbnail": "./images/virtualhangarapp/vhlogo.png",
-        "Images": ["./images/virtualhangarapp/vh1.png"],
+        "Title": "Sustainability App(In Development)",
+        "Description": "An in development app about carbon emissions...",
+        "Thumbnail": "./images/sustainabilityapp/inprogress.png",
+        "Images": ["./images/sustainabilityapp/inprogress.png"],
         "Technologies": ["React", "Java", "SQL"]
     },
 ]
