@@ -1,5 +1,12 @@
 const Projects = [
     {
+        "Title": "Sustainability App",
+        "Description": "An app for an individual to track their annual carbon offset",
+        "Thumbnail": "./images/sustainabilityapp/dashboard_desktop.png",
+        "Images": ["./images/sustainabilityapp/login.png", "./images/sustainabilityapp/dashboard_desktop.png", "./images/sustainabilityapp/dashboard_mobile.png"],
+        "Technologies": ["React", "Go", "MySQL"]
+    },
+    {
         "Title": "Virtual Hangar App",
         "Description": "An app for users to request a flight and track their flight status. Other features include allowing users to track their travel metrics, calculate their flight time or cost, compare aircraft and manage their membership.",
         "Thumbnail": "./images/virtualhangarapp/vhlogo.png",
@@ -27,13 +34,7 @@ const Projects = [
         "Images": ["./images/pong/game.png", "./images/pong/winpage.png"],
         "Technologies": ["C#", "MonoGame"]
     },
-    {
-        "Title": "Sustainability App(In Development)",
-        "Description": "An in development app about carbon emissions...",
-        "Thumbnail": "./images/sustainabilityapp/inprogress.png",
-        "Images": ["./images/sustainabilityapp/inprogress.png"],
-        "Technologies": ["React", "Java", "SQL"]
-    },
+    
 ]
 
 

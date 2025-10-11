@@ -5,8 +5,8 @@ const ProjectCard = ({onClick ,title, thumbnail, technologies}) => {
     return (
         <div onClick={onClick} className="flex flex-col justify-center items-center cursor-pointer hover:bg-[#1F1F1F] pb-5 pt-2 rounded-lg overflow-hidden px-2">
             {/* Thumbnail */}
-            <div className="flex flex-col items-center w-fit h-fit">
-                <img src={thumbnail} className="w-full max-w-[400px] sm:h-[230px] lg:h-[260px] rounded-xl" />
+            <div className="flex flex-col items-center w-full max-w-[400px] h-[225px]">
+                <img src={thumbnail} className="h-full w-full object-cover rounded-xl" />
             </div>
 
             {/* Title */}
